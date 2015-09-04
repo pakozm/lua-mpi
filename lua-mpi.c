@@ -130,6 +130,7 @@ static void register_constants(lua_State *L)
   lua_pushnumber(L, MPI_CART); lua_setfield(L, -2, "CART");
   lua_pushnumber(L, MPI_GRAPH); lua_setfield(L, -2, "GRAPH");
   lua_pushnumber(L, MPI_KEYVAL_INVALID); lua_setfield(L, -2, "KEYVAL_INVALID");
+  lua_pushnumber(L, MPI_MAX_PORT_NAME); lua_setfield(L, -2, "MAX_PORT_NAME");
 
 
   // Collective operations
